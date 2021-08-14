@@ -38,10 +38,10 @@ class SimpleFooter extends React.Component {
             <Row className=" row-grid align-items-center mb-5">
               <Col lg="6">
                 <h3 className=" text-primary font-weight-light mb-2">
-                  Thank you for supporting us!
+                  wellcome to my prfile
                 </h3>
                 <h4 className=" mb-0 font-weight-light">
-                  Let's get in touch on any of these platforms.
+                get in touch with me in any of these platforms.
                 </h4>
               </Col>
               <Col className="text-lg-center btn-wrapper" lg="6">
@@ -62,7 +62,7 @@ class SimpleFooter extends React.Component {
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="facebook"
-                  href="https://www.facebook.com/creativetim"
+                  href="https://web.facebook.com/slayer.malik/"
                   id="tooltip837440414"
                   target="_blank"
                 >
@@ -73,7 +73,7 @@ class SimpleFooter extends React.Component {
                 <UncontrolledTooltip delay={0} target="tooltip837440414">
                   Like us
                 </UncontrolledTooltip>
-                <Button
+                {/* <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="dribbble"
                   href="https://dribbble.com/creativetim"
@@ -86,11 +86,11 @@ class SimpleFooter extends React.Component {
                 </Button>
                 <UncontrolledTooltip delay={0} target="tooltip829810202">
                   Follow us
-                </UncontrolledTooltip>
+                </UncontrolledTooltip> */}
                 <Button
                   className="btn-icon-only rounded-circle ml-1"
                   color="github"
-                  href="https://github.com/creativetimofficial"
+                  href="https://github.com/mechengmalik"
                   id="tooltip495507257"
                   target="_blank"
                 >
@@ -112,12 +112,12 @@ class SimpleFooter extends React.Component {
                     href="https://www.creative-tim.com?ref=adsr-footer"
                     target="_blank"
                   >
-                    Creative Tim
+                    Malik Swayeed
                   </a>
                   .
                 </div>
               </Col>
-              <Col md="6">
+              {/* <Col md="6">
                 <Nav className=" nav-footer justify-content-end">
                   <NavItem>
                     <NavLink
@@ -152,7 +152,7 @@ class SimpleFooter extends React.Component {
                     </NavLink>
                   </NavItem>
                 </Nav>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </footer>
